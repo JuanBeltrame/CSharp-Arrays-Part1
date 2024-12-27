@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.01 Arrays Exercise", "1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.0.1 Array Declaration", "0.0.1 Array Declaration\0.0.1 Array Declaration.csproj", "{9DFCBB56-D098-9EC1-2CE3-03D328FBE703}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.1.1 Arrays Example", "0.1.1 Arrays Example\0.1.1 Arrays Example.csproj", "{1B7D1B29-3B03-26D8-A470-C2B849836A5D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.1.1 Arrays Types", "0.1.1 Arrays Types\0.1.1 Arrays Types.csproj", "{A82D99FA-C88E-4A71-96A5-B76AAF49B338}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{9DFCBB56-D098-9EC1-2CE3-03D328FBE703}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DFCBB56-D098-9EC1-2CE3-03D328FBE703}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DFCBB56-D098-9EC1-2CE3-03D328FBE703}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1B7D1B29-3B03-26D8-A470-C2B849836A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1B7D1B29-3B03-26D8-A470-C2B849836A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1B7D1B29-3B03-26D8-A470-C2B849836A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1B7D1B29-3B03-26D8-A470-C2B849836A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A82D99FA-C88E-4A71-96A5-B76AAF49B338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82D99FA-C88E-4A71-96A5-B76AAF49B338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82D99FA-C88E-4A71-96A5-B76AAF49B338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A82D99FA-C88E-4A71-96A5-B76AAF49B338}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
