@@ -1,4 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using _0._2._1_Arrays_Operations;
 
-// 0.1.1 View Array Types
+//--------Read-------- 
+int[] array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+Read.ReadArray(array);

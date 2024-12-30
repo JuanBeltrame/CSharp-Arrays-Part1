@@ -2,14 +2,10 @@
 {
     public class Read
     {
-        int[] numeros;
-
-        public Read() => numeros = [1,2,3,4,5,6,7,8,9];
-
-        public void ReadArray()
+        public static void ReadArray(int[] nums)
         {
-            for (int i = 0; i < numeros.Length; i++) 
-                Console.WriteLine(numeros[i]);
+            for (int i = 0; i < nums.Length; i++) 
+                Console.Write($" {nums[i]}");
         }
          
     }
