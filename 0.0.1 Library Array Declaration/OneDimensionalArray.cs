@@ -7,45 +7,45 @@
 
         // Forma 1: Declaracion y asignacion en una linea sin valores iniciales
             // Opcion 1.a: Usando Collection Expressions
-            int[] arrayVacio01 = [];
+            int[] arrayVacio1a = [];
             // Opcion 1.b: 
-            int[] arrayVacio02 = new int[0];
+            int[] arrayVacio1b = new int[0];
             // Opción 1.c: Usando Array.Empty<T>() (Recomendado)
-            int[] arrayVacio03 = Array.Empty<int>();
+            int[] arrayVacio1c = Array.Empty<int>();
             // Opcion 1.d: 
-            int[] arrayVacio04 = null!;
+            int[] arrayVacio1d = null!;
 
 
         // Forma 2: Declaracion y asignacion en una linea sin valores iniciales con capacidad especificada;
             // Opcion 2.a:
-            int[] array01 = new int[10];
+            int[] array2a = new int[10];
             // Opcion 2.b: Implicitly typed empty array
-            // var array08 = new int[10];
+            // var array2b = new int[10];
 
 
         //Forma 3: Declaracion e inicializacion en una sola linea con elementos
             // Opcion 3.a: Usando Collection Expressions
-            int[] array02 = [1, 2, 3, 4, 5];
-            string[] nombres02 = ["Juan", "Pepe", "Lucia"];
+            int[] array3a = [1, 2, 3, 4, 5];
+            string[] array3aa = ["Juan", "Pepe", "Lucia"];
             // Opcion 3.b: Usando Corchetes
-            int[] array03 = { 1, 2, 3, 4, 5 };
-            string[] nombres03 = { "Juan", "Pepe", "Lucia" };
+            int[] array3b = { 1, 2, 3, 4, 5 };
+            string[] array3bb = { "Juan", "Pepe", "Lucia" };
             // Opcion 3.c: 
-            // var array13 = new[] { 1, 2, 3, 4, 5 };
+            // var array3c = new[] { 1, 2, 3, 4, 5 };
 
 
         // Forma 4: Declaracion e inicializacion en varias Lineas
             // Opcion 4.a:
-            int[] array04;
-            //array04 = new int[10];
+            int[] array4a;
+            // array4a = new int[10];
             // Opcion 4.b: 
             int tamanio = 30;
-            //int[] array05 = new int[tamanio];
+            //int[] array4b = new int[tamanio];
 
 
         // Forma 5: Usando Array.CreateInstance;
             // Opcion 5.a:
-            Array array06 = Array.CreateInstance(typeof(int), 5);
+            Array array5a = Array.CreateInstance(typeof(int), 5);
 
     }
 }
