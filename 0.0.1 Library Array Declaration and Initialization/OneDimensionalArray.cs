@@ -46,6 +46,5 @@
         // Forma 5: Usando Array.CreateInstance;
             // Opcion 5.a:
             Array array5a = Array.CreateInstance(typeof(int), 5);
-
     }
 }
