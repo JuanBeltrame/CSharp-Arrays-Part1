@@ -1,5 +1,5 @@
 ﻿/*
-Practica 3 - One-Dimensional Array - Exercise 1.1.01
+One-Dimensional Array 
 ----------------------------------------------------------------------
 English:
 Enter 30 integers in an array and then display them.
