@@ -2,7 +2,8 @@
 One-Dimensional Array 
 ----------------------------------------------------------------------
 English:
-Enter 20 elements of real type in an array and perform the sum of them. Use the procedures LOAD AND SUM
+Enter 20 elements of real type in an array and perform the sum of them. 
+Use the procedures LOAD AND SUM
 
 Spanish: 
 Ingresar 20 elementos de tipo real en un arreglo y realizar la suma de los mismos.
