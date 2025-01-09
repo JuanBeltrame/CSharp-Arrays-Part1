@@ -39,8 +39,8 @@
             int[] array4a;
             // array4a = new int[10];
             // Opcion 4.b: 
-            int tamanio = 30;
-            //int[] array4b = new int[tamanio];
+            static int tamanio = 30;
+            int[] array4b = new int[tamanio];
 
 
         // Forma 5: Usando Array.CreateInstance;
