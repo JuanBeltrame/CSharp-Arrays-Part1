@@ -14,13 +14,19 @@ indicando la posición que dicho elemento ocupa en el arreglo.
 */
 
 
-
-char[] array = new char[30];
-
 void PrintIntialValues(char[] array)
 {
     Random randomChar = new();
+    System.Console.Write("Initial Values: ");
     for (int i = 0; i < array.Length; i++)
+    {
         array[i] = (char)randomChar.Next(32,127);
+        Console.Write($"{array[i]} ");
+    }
+    System.Console.WriteLine();
 }
+
+char[] array = new char[30];
+
+PrintIntialValues(array);
 
