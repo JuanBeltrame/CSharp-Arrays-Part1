@@ -12,22 +12,26 @@ y luego mostrar sólo los elementos que sean distintos de ‘ * ‘,
 indicando la posición que dicho elemento ocupa en el arreglo.
 ----------------------------------------------------------------------
 */
+using System.Runtime.InteropServices;
 
-
-void PrintIntialValues(char[] array)
+char DisplaytIntialValues()
 {
     Random randomChar = new();
-    System.Console.Write("Initial Values: ");
-    for (int i = 0; i < array.Length; i++)
-    {
-        array[i] = (char)randomChar.Next(32,127);
-        Console.Write($"{array[i]} ");
-    }
-    System.Console.WriteLine();
+    char value = (char)randomChar.Next(32, 127);
+    return value;
 }
+
 
 char[] array = new char[30];
 
+Console.Write("Initial Values: ");
+for (int i = 0; i < array.Length; i++)
+    Console.Write($" {array[i] = DisplaytIntialValues()} ");
+Console.WriteLine();
 
-PrintIntialValues(array);
-
+Console.Write($"Updated values with no '*' symbol: ");
+for (int i = 0; i < array.Length; i++)
+{
+    if (array[i] is not (char)42)
+    Console.Write($" {array[i]} ");
+}
