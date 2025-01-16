@@ -23,15 +23,21 @@ char DisplaytIntialValues()
 
 
 char[] array = new char[30];
+int position = default;
 
-Console.Write("Initial Values: ");
+Console.Write(". Initial generated Values: ");
 for (int i = 0; i < array.Length; i++)
     Console.Write($" {array[i] = DisplaytIntialValues()} ");
 Console.WriteLine();
 
-Console.Write($"Updated values with no '*' symbol: ");
+Console.Write($". Updated values with no '*' symbol: ");
 for (int i = 0; i < array.Length; i++)
 {
     if (array[i] is not (char)42)
-    Console.Write($" {array[i]} ");
+        Console.Write($" {array[i]} ");
+    else
+        position = i;
 }
+Console.WriteLine();
+
+Console.WriteLine($". '*' symbol was in {position} position of the array.");
