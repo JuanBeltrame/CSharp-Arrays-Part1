@@ -28,5 +28,6 @@ void PrintIntialValues(char[] array)
 
 char[] array = new char[30];
 
+
 PrintIntialValues(array);
 

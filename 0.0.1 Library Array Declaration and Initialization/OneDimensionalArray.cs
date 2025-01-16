@@ -6,24 +6,24 @@
         // Los arrays en C# son objetos, por lo tanto ademas, son tipos de referencia. 
 
         // Forma 1: Declaracion y asignacion en una linea sin valores iniciales
-            // Opcion 1.a: Usando Collection Expressions
-            int[] arrayVacio1a = [];
-            // Opcion 1.b: 
-            int[] arrayVacio1b = new int[0];
-            // Opción 1.c: Usando Array.Empty<T>() (Recomendado)
-            int[] arrayVacio1c = Array.Empty<int>();
-            // Opcion 1.d: 
-            int[] arrayVacio1d = null!;
+            // Opcion 1.a: 
+            int[] arrayVacio1a = new int[0];
+            // Opción 1.b: Usando Array.Empty<T>() (Recomendado)
+            int[] arrayVacio1b = Array.Empty<int>();
+            // Opcion 1.c: 
+            int[] arrayVacio1c = null!;
 
 
-        // Forma 2: Declaracion y asignacion en una linea sin valores iniciales con capacidad especificada;
+        // Forma 2: Declaracion y asignacion en una linea con valores iniciales por defecto con capacidad especificada;
             // Opcion 2.a:
-            int[] array2a = new int[10];
-            // Opcion 2.b: Implicitly typed empty array
+            int[] array2a = new int[5]; // { 0, 0, 0, 0, 0 }
+            bool[] booleanos = new bool[3]; // { false, false, false }
+            string[] textos = new string[4]; // { null, null, null, null }
+            // Opcion 2.b: Implicitly typed array
             // var array2b = new int[10];
 
 
-        //Forma 3: Declaracion e inicializacion en una sola linea con elementos
+        //Forma 3: Declaracion con valores iniciales
             // Opcion 3.a: Usando Collection Expressions
             int[] array3a = [1, 2, 3, 4, 5];
             string[] array3aa = ["Juan", "Pepe", "Lucia"];
@@ -36,7 +36,7 @@
 
         // Forma 4: Declaracion e inicializacion en varias Lineas
             // Opcion 4.a:
-            int[] array4a;
+            int[]? array4a;
             // array4a = new int[10];
             // Opcion 4.b: 
             static int tamanio = 30;
