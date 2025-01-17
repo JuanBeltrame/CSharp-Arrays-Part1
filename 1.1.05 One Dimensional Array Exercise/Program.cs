@@ -18,3 +18,43 @@ a. Mostrar A, B y C, uno debajo del otro.
 b. Mostrar A, B y C, uno al lado del otro.
 ----------------------------------------------------------------------
 */
+
+static int GenerateRandonValues()
+{
+    Random rn = new();
+    var randomValue = rn.Next(1, 11);
+    return randomValue;
+}
+
+static void InitializeArrayWithCustomValues(int[] arrayX)
+{
+    for (int i = 0; i < arrayX.Length; i++)
+        arrayX[i] = GenerateRandonValues();
+}
+
+static void DisplayValues(int[] arrayX)
+{
+    System.Console.Write($". Default values from are: ");
+    for (int i = 0; i < arrayX.Length; i++)
+        System.Console.Write($" {arrayX[i]} ");
+}
+
+static int GenerateSum(int[] arraryX, int[] arrayY, int i) => arraryX[i] + arrayY[i];
+
+var arrayA = new int[10];
+var arrayB = new int[10];
+int[] arrayC = new int[10];
+
+InitializeArrayWithCustomValues(arrayA);
+InitializeArrayWithCustomValues(arrayB);
+
+DisplayValues(arrayA);
+System.Console.WriteLine();
+DisplayValues(arrayB);
+
+for (int i = 0; i < arrayC.Length; i++)
+    arrayC[i] = GenerateSum(arrayA, arrayB, i);
+System.Console.WriteLine();
+DisplayValues(arrayC);
+
+
