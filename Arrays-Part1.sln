@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.04 One Dimensional Arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.05 One Dimensional Array Exercise", "1.1.05 One Dimensional Array Exercise\1.1.05 One Dimensional Array Exercise.csproj", "{E1F9253C-1A12-4853-A16A-BD140440A6B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.06 One Dimensional Array Exercise", "1.1.06 One Dimensional Array Exercise\1.1.06 One Dimensional Array Exercise.csproj", "{74DE981D-C797-4FED-A961-8C6AAC2866C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{E1F9253C-1A12-4853-A16A-BD140440A6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1F9253C-1A12-4853-A16A-BD140440A6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1F9253C-1A12-4853-A16A-BD140440A6B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74DE981D-C797-4FED-A961-8C6AAC2866C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74DE981D-C797-4FED-A961-8C6AAC2866C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74DE981D-C797-4FED-A961-8C6AAC2866C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74DE981D-C797-4FED-A961-8C6AAC2866C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
