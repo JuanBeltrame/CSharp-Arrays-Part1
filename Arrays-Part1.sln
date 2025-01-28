@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.05 One Dimensional Arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.06 One Dimensional Array Exercise", "1.1.06 One Dimensional Array Exercise\1.1.06 One Dimensional Array Exercise.csproj", "{74DE981D-C797-4FED-A961-8C6AAC2866C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{BCD499C4-CEF8-4A56-8096-219B871116D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{8D757AEC-D569-4115-8670-38EC8BB7BCC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{74DE981D-C797-4FED-A961-8C6AAC2866C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74DE981D-C797-4FED-A961-8C6AAC2866C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74DE981D-C797-4FED-A961-8C6AAC2866C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD499C4-CEF8-4A56-8096-219B871116D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD499C4-CEF8-4A56-8096-219B871116D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD499C4-CEF8-4A56-8096-219B871116D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD499C4-CEF8-4A56-8096-219B871116D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D757AEC-D569-4115-8670-38EC8BB7BCC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D757AEC-D569-4115-8670-38EC8BB7BCC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D757AEC-D569-4115-8670-38EC8BB7BCC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D757AEC-D569-4115-8670-38EC8BB7BCC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
