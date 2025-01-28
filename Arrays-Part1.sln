@@ -21,15 +21,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.05 One Dimensional Arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.06 One Dimensional Array Exercise", "1.1.06 One Dimensional Array Exercise\1.1.06 One Dimensional Array Exercise.csproj", "{74DE981D-C797-4FED-A961-8C6AAC2866C8}"
 EndProject
-<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.2.1 Library Arrays Operations", "0.2.1 Library Arrays Operations\0.2.1 Library Arrays Operations.csproj", "{B7D20214-C8E6-1715-F2C2-85D5DA986780}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.2.1 View Arrays Operations", "0.2.1 View Arrays Operations\0.2.1 View Arrays Operations.csproj", "{B8D15A4B-65D8-AB8C-AEF1-58F1C74292A6}"
-=======
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{BCD499C4-CEF8-4A56-8096-219B871116D8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{8D757AEC-D569-4115-8670-38EC8BB7BCC0}"
->>>>>>> origin/main
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,7 +67,6 @@ Global
 		{74DE981D-C797-4FED-A961-8C6AAC2866C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74DE981D-C797-4FED-A961-8C6AAC2866C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74DE981D-C797-4FED-A961-8C6AAC2866C8}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{B7D20214-C8E6-1715-F2C2-85D5DA986780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B7D20214-C8E6-1715-F2C2-85D5DA986780}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7D20214-C8E6-1715-F2C2-85D5DA986780}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -82,16 +75,6 @@ Global
 		{B8D15A4B-65D8-AB8C-AEF1-58F1C74292A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8D15A4B-65D8-AB8C-AEF1-58F1C74292A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8D15A4B-65D8-AB8C-AEF1-58F1C74292A6}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
-		{BCD499C4-CEF8-4A56-8096-219B871116D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BCD499C4-CEF8-4A56-8096-219B871116D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BCD499C4-CEF8-4A56-8096-219B871116D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BCD499C4-CEF8-4A56-8096-219B871116D8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D757AEC-D569-4115-8670-38EC8BB7BCC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D757AEC-D569-4115-8670-38EC8BB7BCC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D757AEC-D569-4115-8670-38EC8BB7BCC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D757AEC-D569-4115-8670-38EC8BB7BCC0}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> origin/main
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
