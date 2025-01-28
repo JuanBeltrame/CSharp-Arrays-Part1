@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34321.82
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.2.1 View Arrays Operations", "0.2.2 View Arrays Operations\0.2.1 View Arrays Operations.csproj", "{731D7121-FA01-484C-BACA-4603301C65AE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.2.1 Library Arrays Operations", "0.2.1 Library Arrays Operations\0.2.1 Library Arrays Operations.csproj", "{B7D20214-C8E6-1715-F2C2-85D5DA986780}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.1.1 Library Arrays Types", "0.1.1 Library Arrays Types\0.1.1 Library Arrays Types.csproj", "{F046DFD4-84C1-BCA7-078A-1F8F259F2194}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.1.1 View Arrays Types", "0.1.1 View Arrays Types\0.1.1 View Arrays Types.csproj", "{C069333B-65D0-25FF-B62D-A866E0932C24}"
@@ -25,20 +21,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.05 One Dimensional Arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.06 One Dimensional Array Exercise", "1.1.06 One Dimensional Array Exercise\1.1.06 One Dimensional Array Exercise.csproj", "{74DE981D-C797-4FED-A961-8C6AAC2866C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.2.1 Library Arrays Operations", "0.2.1 Library Arrays Operations\0.2.1 Library Arrays Operations.csproj", "{B7D20214-C8E6-1715-F2C2-85D5DA986780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.2.1 View Arrays Operations", "0.2.1 View Arrays Operations\0.2.1 View Arrays Operations.csproj", "{B8D15A4B-65D8-AB8C-AEF1-58F1C74292A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{731D7121-FA01-484C-BACA-4603301C65AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{731D7121-FA01-484C-BACA-4603301C65AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{731D7121-FA01-484C-BACA-4603301C65AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{731D7121-FA01-484C-BACA-4603301C65AE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B7D20214-C8E6-1715-F2C2-85D5DA986780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B7D20214-C8E6-1715-F2C2-85D5DA986780}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B7D20214-C8E6-1715-F2C2-85D5DA986780}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B7D20214-C8E6-1715-F2C2-85D5DA986780}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F046DFD4-84C1-BCA7-078A-1F8F259F2194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F046DFD4-84C1-BCA7-078A-1F8F259F2194}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F046DFD4-84C1-BCA7-078A-1F8F259F2194}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -75,6 +67,14 @@ Global
 		{74DE981D-C797-4FED-A961-8C6AAC2866C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74DE981D-C797-4FED-A961-8C6AAC2866C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74DE981D-C797-4FED-A961-8C6AAC2866C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D20214-C8E6-1715-F2C2-85D5DA986780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D20214-C8E6-1715-F2C2-85D5DA986780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D20214-C8E6-1715-F2C2-85D5DA986780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D20214-C8E6-1715-F2C2-85D5DA986780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8D15A4B-65D8-AB8C-AEF1-58F1C74292A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D15A4B-65D8-AB8C-AEF1-58F1C74292A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D15A4B-65D8-AB8C-AEF1-58F1C74292A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D15A4B-65D8-AB8C-AEF1-58F1C74292A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

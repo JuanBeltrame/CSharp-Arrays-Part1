@@ -14,3 +14,4 @@ Console.WriteLine();
 ArrayTraversal.TraverseAndWriteArray(readArray, writeArray);
 Console.WriteLine();
 Console.WriteLine($"Size: {ArraySize.CalculateSize(readArray)}");
+Console.WriteLine();
