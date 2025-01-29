@@ -11,14 +11,10 @@ Se desea saber cuántos de ellos obtuvieron una calificación superior al promed
 ----------------------------------------------------------------------
 */
 
-
-
-using System.Runtime.Intrinsics.X86;
-using System.Security.AccessControl;
-
 Random rn = new();
 decimal average = default;
 decimal acum = default;
+int count = default;
 decimal[] grades = new decimal[30];
 
 Console.Write($". Students grades are: ");
@@ -31,11 +27,10 @@ System.Console.WriteLine();
 average = acum / grades.Length;
 Console.WriteLine($". The {nameof(average)} is {Math.Round(average, 2)}");
 
+for (int i = 0; i < grades.Length; i++)
+    if (grades[i] > average) count ++;
 
-
-
-
-
+Console.WriteLine($". La cantidad de alumnos que obtuvo una calificación superior al promedio es: {count}");
 
 
 decimal GenerateGrades() => rn.Next(100, 1001) / 100m;
