@@ -13,3 +13,63 @@ si el ultimo numero leido es impar, cambiar por cero los numeros contenidos en l
 ----------------------------------------------------------------------
 */
 
+int[] nums = new int[10];
+InitializeArray(nums);
+DisplayValues(nums);
+Console.WriteLine();
+SetNewValues(nums);
+DisplayValues(nums);
+
+
+static int GenerateRandomValues()
+{
+    Random rn = new();
+    return rn.Next(1, 100);
+}
+
+static void InitializeArray(int[] nums)
+{
+    for (int i = 0; i < nums.Length; i++)
+        nums[i] = GenerateRandomValues();
+}
+
+static void DisplayValues(int[] nums)
+{
+    Console.Write("Values are: ");
+    for (int i = 0; i < nums.Length; i++)
+        Console.Write($"{nums[i]} - ");
+}
+
+static bool CheckLastValue(int[] nums) => nums[^1] % 2 == 0 ? true : false;
+
+static void SetNewValues(int[] nums)
+{
+    if (CheckLastValue(nums))
+    {
+        for (int i = 0; i < nums.Length; i++)
+        {
+            if (i % 2 == 0)
+                nums[i] = 0;
+        }
+    }
+    else
+    {
+        for (int i = 0; i < nums.Length; i++)
+        {
+            if (i % 2 != 0)
+                nums[i] = 0;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
