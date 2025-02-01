@@ -35,6 +35,6 @@ int size = 20;
 double[] array = new double[size];
 
 LoadElements(array);
-Console.WriteLine($"Sum of Elements: {SumElements(array)}");
+Console.WriteLine($"Sum of Elements: {SumElements(array):F2}");
 
 

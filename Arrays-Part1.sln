@@ -3,27 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34321.82
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.1.1 Library Arrays Types", "0.1.1 Library Arrays Types\0.1.1 Library Arrays Types.csproj", "{F046DFD4-84C1-BCA7-078A-1F8F259F2194}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011LibraryArraysTypes", "0.1.1 Library Arrays Types\011LibraryArraysTypes.csproj", "{F046DFD4-84C1-BCA7-078A-1F8F259F2194}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.1.1 View Arrays Types", "0.1.1 View Arrays Types\0.1.1 View Arrays Types.csproj", "{C069333B-65D0-25FF-B62D-A866E0932C24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011ViewArraysTypes", "0.1.1 View Arrays Types\011ViewArraysTypes.csproj", "{C069333B-65D0-25FF-B62D-A866E0932C24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.0.1 Library Array Declaration and Initialization", "0.0.1 Library Array Declaration and Initialization\0.0.1 Library Array Declaration and Initialization.csproj", "{AD861241-8718-1EC7-0983-7062060350B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001LibraryArrayDeclarationAndInitialization", "0.0.1 Library Array Declaration and Initialization\001LibraryArrayDeclarationAndInitialization.csproj", "{AD861241-8718-1EC7-0983-7062060350B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.01 One Dimensional Array Exercise", "1.1.01 One Dimensional Array Exercise\1.1.01 One Dimensional Array Exercise.csproj", "{3ED772AB-65CD-44BD-9C99-0CF54F00A13E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1101OneDimensionalArrayExercise", "1.1.01 One Dimensional Array Exercise\1101OneDimensionalArrayExercise.csproj", "{3ED772AB-65CD-44BD-9C99-0CF54F00A13E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.02 One Dimensional Array Exercise", "1.1.02 One Dimensional Array Exercise\1.1.02 One Dimensional Array Exercise.csproj", "{0AC025DF-550C-3A3E-0CE5-F3D244482DCE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1102OneDimensionalArrayExercise", "1.1.02 One Dimensional Array Exercise\1102OneDimensionalArrayExercise.csproj", "{0AC025DF-550C-3A3E-0CE5-F3D244482DCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.03 One Dimensional Array Exercise", "1.1.03 One Dimensional Array Exercise\1.1.03 One Dimensional Array Exercise.csproj", "{1427F08F-D694-46EC-829B-58177E1CD5F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1103OneDimensionalArrayExercise", "1.1.03 One Dimensional Array Exercise\1103OneDimensionalArrayExercise.csproj", "{1427F08F-D694-46EC-829B-58177E1CD5F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.04 One Dimensional Array Exercise", "1.1.04 One Dimensional Array Exercise\1.1.04 One Dimensional Array Exercise.csproj", "{65273450-4A71-4CE1-B26A-A2AE6301B6CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1104OneDimensionalArrayExercise", "1.1.04 One Dimensional Array Exercise\1104OneDimensionalArrayExercise.csproj", "{65273450-4A71-4CE1-B26A-A2AE6301B6CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.05 One Dimensional Array Exercise", "1.1.05 One Dimensional Array Exercise\1.1.05 One Dimensional Array Exercise.csproj", "{E1F9253C-1A12-4853-A16A-BD140440A6B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1105OneDimensionalArrayExercise", "1.1.05 One Dimensional Array Exercise\1105OneDimensionalArrayExercise.csproj", "{E1F9253C-1A12-4853-A16A-BD140440A6B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.06 One Dimensional Array Exercise", "1.1.06 One Dimensional Array Exercise\1.1.06 One Dimensional Array Exercise.csproj", "{74DE981D-C797-4FED-A961-8C6AAC2866C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1106OneDimensionalArrayExercise", "1.1.06 One Dimensional Array Exercise\1106OneDimensionalArrayExercise.csproj", "{74DE981D-C797-4FED-A961-8C6AAC2866C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.2.1 Library Arrays Operations", "0.2.1 Library Arrays Operations\0.2.1 Library Arrays Operations.csproj", "{B7D20214-C8E6-1715-F2C2-85D5DA986780}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "021LibraryArraysOperations", "0.2.1 Library Arrays Operations\021LibraryArraysOperations.csproj", "{B7D20214-C8E6-1715-F2C2-85D5DA986780}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.2.1 View Arrays Operations", "0.2.1 View Arrays Operations\0.2.1 View Arrays Operations.csproj", "{B8D15A4B-65D8-AB8C-AEF1-58F1C74292A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "021ViewArraysOperations", "0.2.1 View Arrays Operations\021ViewArraysOperations.csproj", "{B8D15A4B-65D8-AB8C-AEF1-58F1C74292A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1107OneDimensionalArrayExercise", "1.1.07 One Dimensional Array Exercise\1107OneDimensionalArrayExercise.csproj", "{445E2DBA-B3E4-43E1-B4A6-4B3F8DE22E37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{B8D15A4B-65D8-AB8C-AEF1-58F1C74292A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8D15A4B-65D8-AB8C-AEF1-58F1C74292A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8D15A4B-65D8-AB8C-AEF1-58F1C74292A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445E2DBA-B3E4-43E1-B4A6-4B3F8DE22E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445E2DBA-B3E4-43E1-B4A6-4B3F8DE22E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445E2DBA-B3E4-43E1-B4A6-4B3F8DE22E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445E2DBA-B3E4-43E1-B4A6-4B3F8DE22E37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
