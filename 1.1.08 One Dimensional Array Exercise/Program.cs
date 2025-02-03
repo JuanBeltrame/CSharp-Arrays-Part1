@@ -26,7 +26,10 @@ int[] x = new int[30];
 int[] dx = new int[30];
 
 InitializeArray(x);
-DisplayValues(x);
+DisplayValues(nameof(x), x);
+Console.WriteLine();
+GenerateSecondArray(nameof(dx), dx);
+DisplayValues(nameof(dx), dx);
 
 
 static int GenerateRandomValues()
@@ -41,19 +44,24 @@ static void InitializeArray(int[] array)
         array[i] = GenerateRandomValues();
 }
 
-static void DisplayValues(int[] array)
+static void DisplayValues(string arrayName, int[] array)
 {
+    Console.WriteLine($"Array {arrayName}");
     for (int i = 0; i < array.Length; i++)
         Console.Write($" {array[i]} - ");
 }
 
-static void GenerateSecondArray(int[] array)
+static void GenerateSecondArray(string arrayName, int[] array)
 {
-    for (int i = 0; i < array.Length -1; i++)
+    for (int i = 0; i < array.Length - 1; i++)
     {
         for (int j = i + i; j < array.Length; j++)
         {
             array[i] = array[j] - array[i];
         }
+    }
+    for(int k = 0; k < array.Length; k++)
+    {
+        array[k] = array[i];
     }
 }
