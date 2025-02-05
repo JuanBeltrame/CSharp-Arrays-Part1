@@ -19,17 +19,19 @@ b. ídem apartado (a) pero sobre sí mismo, o sea sin generar un arreglo DX.
 ----------------------------------------------------------------------
 */
 
-using System.Globalization;
-using System.Runtime.CompilerServices;
 
-int[] x = new int[30];
-int[] dx = new int[30];
+int[] x = new int[5];
+int[] dx = new int[x.Length - 1];
 
 InitializeArray(x);
-DisplayValues(nameof(x), x);
-Console.WriteLine();
-GenerateSecondArray(nameof(dx), dx);
-DisplayValues(nameof(dx), dx);
+DisplayValues(nameof(x), x, x.Length);
+
+GenerateSecondArray(x, dx);
+DisplayValues(nameof(dx), dx, dx.Length);
+
+
+GenerateThirdArray(x);
+DisplayValues(nameof(x), x, x.Length - 1);
 
 
 static int GenerateRandomValues()
@@ -44,24 +46,22 @@ static void InitializeArray(int[] array)
         array[i] = GenerateRandomValues();
 }
 
-static void DisplayValues(string arrayName, int[] array)
+static void DisplayValues(string arrayName, int[] array, int elementsToShow)
 {
-    Console.WriteLine($"Array {arrayName}");
-    for (int i = 0; i < array.Length; i++)
+    Console.Write($"Array {arrayName}:");
+    for (int i = 0; i < elementsToShow; i++)
         Console.Write($" {array[i]} - ");
+    Console.WriteLine();
 }
 
-static void GenerateSecondArray(string arrayName, int[] array)
+static void GenerateSecondArray(int[] arrayX, int[] arrayDX)
+{
+    for (int i = 0; i < arrayX.Length - 1; i++)
+        arrayDX[i] = arrayX[i + 1] - arrayX[i];
+}
+
+static void GenerateThirdArray(int[] array)
 {
     for (int i = 0; i < array.Length - 1; i++)
-    {
-        for (int j = i + i; j < array.Length; j++)
-        {
-            array[i] = array[j] - array[i];
-        }
-    }
-    for(int k = 0; k < array.Length; k++)
-    {
-        array[k] = array[i];
-    }
+        array[i] = array[i + 1] - array[i];
 }
